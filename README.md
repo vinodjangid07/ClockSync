@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ClockSync - Sync Clocks, Schedule Easy
 
-## Getting Started
+![ClockSync Preview](./public/preview.png)
 
-First, run the development server:
+**ClockSync** is the simplest way to coordinate meetings across time zones. Share a link, and everyone sees their local time. No accounts, no downloads, no complexity.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **🕐 Real-time Time Conversion**: Convert times between 400+ time zones instantly
+- **🔗 Shareable Links**: Generate links that show the same meeting time in everyone's local timezone
+- **🌍 Automatic Timezone Detection**: Automatically detects visitor's timezone for seamless experience
+- **⏰ Working Hours Indicator**: Visual indicators showing if it's working hours in each timezone
+- **🎨 Minimalist UI**: Clean, dark interface that focuses on what matters
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: Next.js 16.0.1, React, TypeScript
+- **Timezone Data**: @vvo/tzdb (400+ timezones)
 
-## Learn More
+## 🚀 Quick Start
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
+- Node.js 18+ and npm
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/vinodjangid07/ClockSync.git
+   cd ClockSync
+   ```
 
-## Deploy on Vercel
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📖 Usage
+
+### Basic Time Conversion
+1. Visit ClockSync
+2. Click "Try ClockSync" to access the tool
+3. Select your source timezone and time
+4. Choose destination timezone to see the converted time
+5. Add multiple timezones to compare times across regions
+
+### Share Meeting Times
+1. Set up your meeting time and relevant timezones
+2. Click "Generate Shareable Link" 
+3. Share the link with participants
+4. Everyone sees the meeting time in their local timezone
+
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork the repository**
+2. **Create your feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. **Commit your changes**
+   ```bash
+   git commit -m 'Add some amazing feature'
+   ```
+4. **Push to the branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+5. **Open a Pull Request**
+
+### Development Guidelines
+- Follow the existing code style and conventions
+- Test your changes across different timezones
+- Ensure responsive design on various screen sizes
+- Update documentation for new features
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🔗 Links
+
+- **Developer**: [Vinod Jangid](https://github.com/vinodjangid07)
+
+---
+
+<p align="center">Built by <a href="https://github.com/vinodjangid07">Vinod Jangid</a></p>
